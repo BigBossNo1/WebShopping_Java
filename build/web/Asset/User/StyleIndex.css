@@ -1,0 +1,150 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    margin-left: 40px;
+    margin-left: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: darkorange;
+}
+.container {
+    display: flex;
+    height: calc(100% - 50px); /* Subtract footer height */
+}
+
+.menu {
+    width: 20%; /* Chiếm 1/5 chiều rộng của menu */
+    background-color:gray ;
+}
+
+.menu-options {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.menu-button {
+    margin-bottom: 10px; /* Khoảng cách giữa các nút */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu-button:hover {
+    background-color: #0056b3;
+}
+.content {
+    width: 100%;
+    max-width: 1200px; /* Đặt giới hạn chiều rộng tối đa */
+    margin: 20px auto; /* Căn giữa và tạo khoảng cách với viền ngoài */
+    overflow-x: auto;
+}
+.product-row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.product {
+    width: calc(25% - 20px); /* Chiếm 1/4 chiều rộng của content và margin */
+    margin: 0 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.add-to-cart-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #0056b3;
+}
+.panner {
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.panner button {
+    margin-right: 10px;
+}
+table {
+    width: 100%; /* Chiếm toàn bộ chiều rộng của phần content */
+    border-collapse: collapse; /* Gộp đường viền */
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #dddddd; /* Tạo đường viền cho các ô */
+}
+
+.welcome-message {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.welcome-message h2 {
+    color: #333;
+}
+
+.welcome-message p {
+    color: #666;
+}
+
+.intro-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.intro-images img {
+    width: 300px;
+    margin: 0 10px;
+    border-radius: 10px;
+}

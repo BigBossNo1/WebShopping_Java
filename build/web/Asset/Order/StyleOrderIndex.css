@@ -1,0 +1,18 @@
+.navigation-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navigation-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.navigation-button:hover {
+    background-color: #0056b3;
+}

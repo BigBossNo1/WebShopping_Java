@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: row; /* Sắp xếp nút ngang */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 24px;
+    margin-right: 20px; /* Tạo khoảng cách giữa nút và tiêu đề */
+}
+
+a {
+    display: inline-block;
+    padding: 15px 30px; /* Tăng kích thước của nút */
+    margin: 0 10px; /* Tạo khoảng cách giữa các nút */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none; /* Loại bỏ gạch chân của liên kết */
+}
+
+.admin-button {
+    background-color: #007bff; /* Màu xanh dương */
+    color: #fff;
+}
+
+.user-button {
+    background-color: #5bc0de; /* Màu xanh dương */
+    color: #fff;
+}
+
+a:hover {
+    opacity: 0.8;
+}

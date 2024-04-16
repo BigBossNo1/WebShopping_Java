@@ -1,0 +1,108 @@
+.name{
+    text-align: center;
+    color: green;
+}
+.app__body-menu{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+.app__body-menu ul{
+    margin: 0;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+
+}
+
+.app__body-menu li{
+    list-style-type: none;
+    border-left: 1px solid black;
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+.app__body-content{
+    position: relative;
+    width: 80%;
+    height: 100%;
+}
+
+.app__body-products{
+    width: 100%;
+    height: 85% ;
+}
+
+.app__body-products table{
+    margin: 10px auto;
+    width: 90%;
+}
+
+.app__body-products td{
+    padding: 10px;
+
+}
+
+.app__body-products table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.app__body-products td div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.app__body-products input{
+    text-align: center;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.app__body-products > div{
+    width: 90%;
+    margin: 0 auto;
+}
+.remove-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.confirm-button {
+    background-color: #28a745; /* Màu xanh */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Loại bỏ gạch chân mặc định của thẻ a */
+}
+
+.delete-all-button {
+    background-color: #dc3545; /* Màu đỏ */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Loại bỏ gạch chân mặc định của thẻ a */
+}
+.update{
+    background-color: #0056b3; /* Màu đỏ */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Loại bỏ gạch chân mặc định của thẻ a */
+}
+
+/* Tạo hiệu ứng khi di chuột vào nút */
+.confirm-button:hover, .delete-all-button:hover {
+    opacity: 0.8;
+}
